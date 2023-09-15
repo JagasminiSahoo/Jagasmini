@@ -1,0 +1,24 @@
+abstract class Abstract
+{
+	  abstract void sound();
+}
+ class Abstract1 extends Abstract
+{
+	     public void sound()
+	{
+			 System.out.println("Bhow");
+	}
+}
+class Abstract2 extends Abstract
+{
+    public void sound()
+	{
+		System.out.println("Meow");
+    }
+}
+
+
+
+	
+   
+

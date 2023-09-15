@@ -1,0 +1,17 @@
+class Constructor1
+{
+	    int i=12;
+	       Constructor1()
+		   { 
+			   int i=10;
+               System.out.println("Jay jagannath");
+		   }
+		   public static void main(String [] args)
+	      {
+			    Constructor1  c=new Constructor1();
+                System.out.println(c.i);
+		  }
+
+	      
+}
+

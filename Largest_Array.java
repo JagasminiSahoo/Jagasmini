@@ -1,0 +1,21 @@
+class  Largest_Array
+{
+	public static void main(String[] args) 
+	{
+		int x[]={2,3,56,6,73,20};
+		int len=x.length;
+		int max=x[0];
+		int min=x[0];
+		for(int i=0;i<len;i++)
+		{
+		    if(x[i]>max)
+				max=x[i];
+			else if(x[i]<min)
+				min=x[i];
+		}
+		System.out.println(max);
+		System.out.println(min);
+
+		
+	}		
+}

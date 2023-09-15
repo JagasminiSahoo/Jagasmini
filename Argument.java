@@ -1,0 +1,17 @@
+class Argument 
+{
+	public static void main(String[] args) 
+	{
+		m1(null);
+		String s1=new String();
+		m1(s1);
+		m1(new String());
+		m1("fhhh");
+	}
+	public static void m1(String s)
+	{
+		System.out.println(s);
+        System.out.println("Puja");
+	}
+	
+}

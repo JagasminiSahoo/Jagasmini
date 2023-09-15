@@ -1,0 +1,11 @@
+abstract class Abstract
+{
+	    abstract void m1();
+}
+abstract class Abstract1 extends Abstract
+{
+	     abstract void m1();
+}
+	
+   
+
